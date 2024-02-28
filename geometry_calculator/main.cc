@@ -4,54 +4,47 @@
 
 using namespace std;
 
-int main() {
-    double length, width, radius, side1, side2, side3;
-    int dividend, divisor;
+int main()
+{
+    /* 
+    First we need to Declare some variables for later use. These are what we need:
+    Type: double
+        - Rectangle: length, width
+        - Circle: radius
+        - Triangle: side1, side2, side3
+    
+    Type: int
+        - dividend
+        - divisor
+    */
+    // TODO: Declare Variables
 
-    // Prompt for rectangle dimensions
-    std::cout << "Enter length of the rectangle: ";
-    cin >> length;
-    cout << "Enter width of the rectangle: ";
-    cin >> width;
 
-    // Calculate and display rectangle area
-    double areaRectangle = calculateRectangleArea(length, width);
-    if (areaRectangle != -1) {
-        cout << "Area of the rectangle: " << areaRectangle << endl;
-    }
 
+    // TODO: Prompt for rectangle dimensions
+
+
+
+    // TODO: Rectangle
+    // Create a variable named 'areaRectangle'
+    // Calculate the area 
+    // Display areaRectangle when it's a valid.
+
+
+    // TODO: Circle
     // Prompt for circle radius
-    cout << "Enter radius of the circle: ";
-    cin >> radius;
+    // Calculate and display circle circumference when it's a valid.
 
-    // Calculate and display circle circumference
-    double circumferenceCircle = calculateCircleCircumference(radius);
-    if (circumferenceCircle != -1) {
-        cout << "Circumference of the circle: " << circumferenceCircle << endl;
-    }
 
+    // TODO: Triangle
     // Prompt for triangle sides
-    cout << "Enter length of side 1 of the triangle: ";
-    cin >> side1;
-    cout << "Enter length of side 2 of the triangle: ";
-    cin >> side2;
-    cout << "Enter length of side 3 of the triangle: ";
-    cin >> side3;
-
     // Calculate and display triangle perimeter
-    double perimeterTriangle = calculateTrianglePerimeter(side1, side2, side3);
-    if (perimeterTriangle != -1) {
-        cout << "Perimeter of the triangle: " << perimeterTriangle << endl;
-    }
 
-    // Prompt for dividend and divisor
-    cout << "Enter dividend: ";
-    cin >> dividend;
-    cout << "Enter divisor: ";
-    cin >> divisor;
 
-    // Calculate and display quotient and remainder
-    calculateQuotientAndRemainder(dividend, divisor);
+    // TODO: Prompt for dividend and divisor
+
+
+    // TODO: Calculate and display quotient and remainder  
 
     return 0;
 }
