@@ -1,57 +1,56 @@
+#include "finished_geometry_calculator.h"
 #include <iostream>
-#include "geometry_calculator.h"
-#include "geometry_calculator.cc"
-
-using namespace std;
 
 int main() {
-    double length, width, radius, side1, side2, side3;
-    int dividend, divisor;
+  double length, width, radius, side1, side2, side3;
+  int dividend, divisor;
 
-    // Prompt for rectangle dimensions
-    std::cout << "Enter length of the rectangle: ";
-    cin >> length;
-    cout << "Enter width of the rectangle: ";
-    cin >> width;
+  // Prompt for rectangle dimensions
+  std::cout << "Enter length of the rectangle: ";
+  std::cin >> length;
+  std::cout << "Enter width of the rectangle: ";
+  std::cin >> width;
 
-    // Calculate and display rectangle area
-    double areaRectangle = calculateRectangleArea(length, width);
-    if (areaRectangle != -1) {
-        cout << "Area of the rectangle: " << areaRectangle << endl;
-    }
+  // Calculate and display rectangle area
+  double areaRectangle = calculateRectangleArea(length, width);
+  if (areaRectangle != -1) {
+    std::cout << "Area of the rectangle: " << areaRectangle << "\n\n";
+  }
 
-    // Prompt for circle radius
-    cout << "Enter radius of the circle: ";
-    cin >> radius;
+  // Prompt for circle radius
+  std::cout << "Enter radius of the circle: ";
+  std::cin >> radius;
 
-    // Calculate and display circle circumference
-    double circumferenceCircle = calculateCircleCircumference(radius);
-    if (circumferenceCircle != -1) {
-        cout << "Circumference of the circle: " << circumferenceCircle << endl;
-    }
+  // Calculate and display circle circumference
+  double circumferenceCircle = calculateCircleCircumference(radius);
+  if (circumferenceCircle != -1) {
+    std::cout << "Circumference of the circle: " << circumferenceCircle
+              << "\n\n";
+  }
 
-    // Prompt for triangle sides
-    cout << "Enter length of side 1 of the triangle: ";
-    cin >> side1;
-    cout << "Enter length of side 2 of the triangle: ";
-    cin >> side2;
-    cout << "Enter length of side 3 of the triangle: ";
-    cin >> side3;
+  // Prompt for triangle sides
+  std::cout << "Enter length of side 1 of the triangle: ";
+  std::cin >> side1;
+  std::cout << "Enter length of side 2 of the triangle: ";
+  std::cin >> side2;
+  std::cout << "Enter length of side 3 of the triangle: ";
+  std::cin >> side3;
 
-    // Calculate and display triangle perimeter
-    double perimeterTriangle = calculateTrianglePerimeter(side1, side2, side3);
-    if (perimeterTriangle != -1) {
-        cout << "Perimeter of the triangle: " << perimeterTriangle << endl;
-    }
+  // Calculate and display triangle perimeter
+  double perimeterTriangle = calculateTrianglePerimeter(side1, side2, side3);
+  if (perimeterTriangle != -1) {
+    std::cout << "Perimeter of the triangle: " << perimeterTriangle << "\n\n";
+  }
 
-    // Prompt for dividend and divisor
-    cout << "Enter dividend: ";
-    cin >> dividend;
-    cout << "Enter divisor: ";
-    cin >> divisor;
+  // Prompt for dividend and divisor
+  std::cout << "Enter dividend: ";
+  std::cin >> dividend;
+  std::cout << "Enter divisor: ";
+  std::cin >> divisor;
 
-    // Calculate and display quotient and remainder
-    calculateQuotientAndRemainder(dividend, divisor);
+  // Calculate and display quotient and remainder
+  calculateQuotientAndRemainder(dividend, divisor);
 
-    return 0;
+  // Exit code
+  return 0;
 }

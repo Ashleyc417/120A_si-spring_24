@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
-SRCS = geometry_calculator.cpp main.cpp
+SRCS = finished_geometry_calculator.cpp finished_main.cpp
 OBJS = $(SRCS:.cpp=.o)
 EXEC = geometry_program
 
