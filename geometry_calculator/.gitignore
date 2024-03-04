@@ -1,0 +1,9 @@
+# Ignore ALL files
+*
+
+# Undo ignore for all files with a file extension
+# (This keeps executable files with no extension ignored)
+!*.*
+
+# Still ignore object files after
+*.o
