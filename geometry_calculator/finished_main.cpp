@@ -1,7 +1,8 @@
 #include "finished_geometry_calculator.h"
 #include <iostream>
 
-int main() {
+int main()
+{
   double length, width, radius, side1, side2, side3;
   int dividend, divisor;
 
@@ -13,7 +14,8 @@ int main() {
 
   // Calculate and display rectangle area
   double areaRectangle = calculateRectangleArea(length, width);
-  if (areaRectangle != -1) {
+  if (areaRectangle != -1)
+  {
     std::cout << "Area of the rectangle: " << areaRectangle << "\n\n";
   }
 
@@ -23,7 +25,8 @@ int main() {
 
   // Calculate and display circle circumference
   double circumferenceCircle = calculateCircleCircumference(radius);
-  if (circumferenceCircle != -1) {
+  if (circumferenceCircle != -1)
+  {
     std::cout << "Circumference of the circle: " << circumferenceCircle
               << "\n\n";
   }
@@ -38,7 +41,8 @@ int main() {
 
   // Calculate and display triangle perimeter
   double perimeterTriangle = calculateTrianglePerimeter(side1, side2, side3);
-  if (perimeterTriangle != -1) {
+  if (perimeterTriangle != -1)
+  {
     std::cout << "Perimeter of the triangle: " << perimeterTriangle << "\n\n";
   }
 
