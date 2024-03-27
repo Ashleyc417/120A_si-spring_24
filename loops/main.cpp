@@ -3,16 +3,20 @@
 #include <iostream>
 
 int main() {
-  // Example 1: Calculate the sum of numbers from 1 to 100
-  // Prompt: Write a program to sum numbers from 1 to 100.
-  // TODO: Your code goes here!
+  // Example 1: Find the sum of all the even numbers in a vector.
+  // Initialize a vector of integers
+  std::vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
+  // Find the sum of all even elements in the vector
   int sum = 0;
-
-  for (int i = 1; i <= 100; ++i) {
-    sum += i;
+  for (int num : numbers) {
+    if (num % 2 == 0) {
+      sum += num;
+    }
   }
-  std::cout << "Sum of numbers from 1 to 100: " << sum << "\n\n";
+  // Sum = 30
+  std::cout << "The sum of all the even numbers from 1-10 is: " << sum
+            << "\n\n";
 
   // Example 2: Find the factorial of a number using a while loop
   // Prompt: Write a program to calculate the factorial of a given number.

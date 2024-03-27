@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Compile Code
-g++ main.cpp -o main.out
+g++ main.cpp -o main.out --std=c++17
 
 # Check if compilation was successful
 if [ $? -eq 0 ]; then
