@@ -12,7 +12,7 @@
 double calculateRectangleArea(double length, double width);
 
 // This function calculates the circumference of a circle.
-// Formula = pi(r)^2
+// Formula = 2 * pi * diameter
 double calculateCircleCircumference(double radius);
 
 // This function calculates the perimeter of a triangle.

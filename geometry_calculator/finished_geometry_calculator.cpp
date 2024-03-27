@@ -29,7 +29,8 @@ double calculateCircleCircumference(double radius)
    */
   if (radius > 0)
   {
-    return 2 * M_PI * radius; // M_PI is a constant representing pi
+    double diameter = 2 * radius;
+    return 2 * M_PI * diameter; // M_PI is a constant representing pi
   }
   else
   {
