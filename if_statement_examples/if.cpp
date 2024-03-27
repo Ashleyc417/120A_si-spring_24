@@ -6,7 +6,7 @@ int main() {
   int x = 10;
 
   // if x > 5, then print "x is greater than "
-  if (x > 5) {
+  if (x != 2 && x == 0) {
     std::cout << "x is greater than 5\n";
   }
 
