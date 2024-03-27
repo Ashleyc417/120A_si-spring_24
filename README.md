@@ -1,5 +1,2 @@
-# 120A_si-spring_24
-- a repo for 120 si stuff
-
-## Code Practice 
-  - 2/28 - geometry caculator
+# CPSC 120A SI - Spring 2024 
+This is a repo to store all the things I made for my SI sessions.
